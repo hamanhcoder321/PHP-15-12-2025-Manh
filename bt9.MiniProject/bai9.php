@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 // Đọc dsách lhệ
 $hihi = [];
-if (file_exists("hihi.txt")) {
+if (file_exists("hihi.txt")) { // file_exists tệp tin hihi.txt có nằm ở thư mục này không?".
     $contacts = file("hihi.txt", FILE_IGNORE_NEW_LINES);
     // thằng FILE_IGNORE_NEW_LINES này nó đọc dữ liệu từ tiệp tin người dùng chuyền vào
 }
